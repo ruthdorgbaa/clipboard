@@ -13,14 +13,14 @@ body{
 .header{
     background-image: url(file:///Users/adebayo/Downloads/clipboard-landing-page-master%202/images/bg-header-desktop.png);
     height: 360px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     
 }
 
   .logo{
     align-items: center;
     margin: auto;
-    padding: 120px 1300px 60px 1300px;
+    padding: 120px 650px 60px 650px;
     width: 230px;
   }
   section{
@@ -31,20 +31,20 @@ body{
   }
   section h1{
     font-weight: 600px;
-    font-size: 75px;
+    font-size: 50px;
     text-align: center;
     padding-bottom: 25px;
+    opacity: 0.7;
     
   }
-  section p1{
-     
-     font-size: 40px;
+  section p1{ 
+     font-size: 30px;
      text-align: start;
      opacity: 0.4;
   }
   .content{
-    margin: 160px 850px;
     text-align: center;
+    margin: 350px 150px 350px 80px;
     
   }
   .content h2{
@@ -52,14 +52,14 @@ body{
     font-size: 45px;
     margin-top: 160px;
     margin-bottom: 30px;
+    opacity: 0.7;
   }
   .content p1{
-    font-size: 33px;
+    font-size: 30px;
      text-align: center;
      opacity: 0.4;
      word-spacing: 10px;
-     margin-top: 30px;
-     margin-bottom: 85px;
+     line-height: 50px;
   }
   .sub-content{
     margin: auto;
@@ -69,8 +69,209 @@ body{
   .sub-content img{
     width: 720px;
     height: 580px;
-    
   }
+  .sub-content h2{
+    margin-left: 70px;
+    margin-top: 80px;
+  }
+  .sub-content p{
+    margin-top: 20px;
+    margin-right: 275px;
+    margin-left: 70px;
+    opacity: 0.4;
+  }
+  .section1{
+    font-size: 18px;
+    margin-right: 160px;
+    opacity: 0.7;
+  }
+  .section2{
+    margin: 160px 315px;
+   justify-content: center;
+  }
+  .access{
+    margin: auto;
+    text-align: center;
+  }
+  .access h2{
+    font-size: 40px;
+    opacity: .7;
+  }
+  .access p{
+    margin: auto;
+    font-size: 22px;
+    padding: 20px 80px 100px 80px;
+    opacity: 0.4;
+    line-height: 40px;
+  }
+  .supercharge h2{
+    text-align: center;
+    font-size: 40px;
+    opacity: .7;
+  }
+  .supercharge p{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    opacity: 0.4;
+  }
+  section3{
+    display: flex;
+    margin: 170px 80px;
+  }
+  .blacklist, .plain, .sneak {
+    text-align: center;
+    margin: 0 110px;
+    line-height: 30px;
+    opacity: 0.7;
+  }
+  .logos{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+  }
+  .logos img{
+    padding: 50px 50px 100px 50px;
+  }
+  @media screen and (max-width:375px) {
+    .header{
+      background-image: url(../../assets/bg-header-mobile.png);
+      height: 300px;
+    }
+    .logo{
+    display: flex;
+    align-items: center;
+    padding: 120px 120px 40px 120px;
+    margin-bottom: 40px;
+    width: auto;
+}
+section{
+  margin: auto;
+  text-align: center;
+  width: auto;
+}
+section h1 {
+  text-align: center;
+  padding: 0 60px;
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+section p1{
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.4;
+}
+.content {
+  margin: auto;
+  text-align: center;
+  padding: 130px 35px 70px 35px;
+}
+.content h2{
+  margin: auto;
+  font-size: 25px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+.content p1{
+  opacity: 0.4;
+  font-size: 16px;
+  word-spacing: normal;
+  line-height: 30px;
+  
+}
+.sub-content{
+  margin: 0 34px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sub-content img{
+  margin-right: 64px;
+  align-items: center;
+  width:300px; 
+  height:240px;
+  
+}
+.section1{
+  margin:auto;
+}
+.section1 h2{
+  text-align: center;
+  margin-left: 10px;
+  opacity: .7;
+  font-size: 20px;
+}
+.section1 p{
+  margin-left: 10px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 16px;
+  opacity: .4;
+}
+.section2{
+  margin: auto;
+  padding-top: 180px;
+}
+.access{
+  margin: auto;
+}
+.access h2{
+  font-size: 30px;
+}
+.access P{
+  font-size: 16px;
+  line-height: 25px;
+  padding: 20px 30px;
+}
+.device {
+  margin: 0 35px;
+  width: 310px;
+  height: 200px;
+  padding-top: 30px;
+}
+.supercharge h2{
+  font-size: 30px;
+}
+.supercharge p{
+  margin: 25px 60px 30px 60px;
+  font-size: 16px;
+  line-height:25px ;
+}
+section3{
+  flex-direction: column;
+  margin: auto;
+}
+.blacklist, .plain, .sneak{
+  margin: 0 30px;
+}
+.blacklist p, .plain p, .sneak p{
+  opacity: 0.4;
+}
+.sneak{
+  margin-bottom: 100px;
+}
+
+.blacklist img, .plain img,.sneak img{
+  width: 50px;
+  height: 35px;
+  margin-top: 60px;
+}
+.logos{
+  margin: auto;
+  flex-direction: column;
+  
+}
+.logos img{
+  width: 100px;
+  height: 30px;
+  padding: 30px 50px;
+  margin: auto;
+}
+
+  }
+  
+  
 
  
 

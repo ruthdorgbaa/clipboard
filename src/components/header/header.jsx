@@ -85,6 +85,7 @@ const Header = () => (
                                 Remove unwanted formatting from copied text for a consistent look.
                             </p>
                         </div>
+                
                         <div className="sneak">
                             <img src={Sneak} alt="sneak" />
                             <h2>Sneak preview</h2>
@@ -92,15 +93,18 @@ const Header = () => (
                             Quick preview of all snippets on your Clipboard for easy access.
                             </p>
                         </div>
+                        </section3>
+                
                         <div className="logos">
-                            <img src={Google} width="100px" height="50px" alt="google-log" />
-                            <img src={IBM} width="110px" height="40px" alt="ibm" />
-                            <img src={ Microsoft} height="25px" width="50px" alt="microsoft" />
-                            <img src={HP} height="80px" width="50px" alt="hp-logo" />
-                            <img src={Vector} height="25px" width="100px" alt="vector" />
-                        </div>
+                            <img className="google" src={Google}  alt="google-log" />
+                            <img className="IBM" src={IBM}  alt="ibm" />
+                            <img className="microsoft" src={ Microsoft}  alt="microsoft" />
+                            <img className="hp" src={HP} alt="hp-logo" />
+                            <img className="vector" src={Vector}  alt="vector" />
+                </div>
+               
                         
-                    </section3>
+                    
                 
                 
                 
